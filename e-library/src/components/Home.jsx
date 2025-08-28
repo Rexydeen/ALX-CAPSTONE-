@@ -27,8 +27,11 @@ export default function Home() {
 
         {/* Hero Text */}
         <h1 className="text-5xl font-bold leading-tight mt-10">
-          Discover Your <br /> Next Great Read
+          Welcome <br /> To <br /> LitHaven
         </h1>
+        <h2 className="text-5xl font-bold leading-tight mt-10">
+          Discover Your <br /> Next Great Read
+        </h2>
         <p className="mt-4 text-lg text-gray-300">
           Explore our collection of books across various genres.
         </p>

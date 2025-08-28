@@ -1,12 +1,31 @@
-# React + Vite
+ LiHaven e-Library App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web application for searching and viewing details about books using the Open Library API.
 
-Currently, two official plugins are available:
+# Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ **Search Books** by title, author, or keyword using the Open Library API
+**BookCard Component** displays search results with cover images, title, author, and publisher
+**Add to Favorites** feature with persistent state using Zustand
+**View Favorites Page** – see all books you've marked as favorites
+**View Book Details** including:
+  Description
+  Publication Date
+  ISBN
+  Number of Pages
+  Subjects (with show more/less toggle)
+**Related Books** suggestions based on shared subject
+**Client-side Routing** between Home, BookCard, BookDetails, and Favorites using React Router
+**State Management** using Zustand for global favorites/book handling
+**API Integration** with Open Library's `/search.json`, `/works/{id}.json`, and `/subjects/{subject}.json`
+**Styled with Tailwind CSS** for a modern, responsive design
+**Fully Responsive** layout – optimized for mobile, tablet, and desktop
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Built With
+
+**React Router** For navigating between pages (Home, Book Details)
+**Zustand** Lightweight global state management for storing search results 
+**Tailwind CSS**  Utility-first CSS framework for fast styling 
+**Open Library API** Fetches real-time book data 
+
